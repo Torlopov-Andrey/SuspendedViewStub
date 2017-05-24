@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SuspendedViewStub_Example' do
+  pod 'SuspendedViewStub', :path => '../'
+
+  target 'SuspendedViewStub_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
