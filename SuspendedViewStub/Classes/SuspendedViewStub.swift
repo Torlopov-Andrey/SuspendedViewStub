@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SuspendedViewStub {
+public class SuspendedViewStub {
     
     static private var tag = 999
     static private let shared = SuspendedViewStub()
@@ -16,18 +16,18 @@ class SuspendedViewStub {
     fileprivate var autocomplete: Bool = true
     fileprivate var viewController: UIViewController?
     
-    class func setup(tag: Int) {
+    public class func setup(tag: Int) {
         self.tag = tag
     }
     
-    class func setStub(color: UIColor) {
+    public class func setStub(color: UIColor) {
         let view = UIView(frame: (UIApplication.shared.keyWindow?.bounds)!)
         view.backgroundColor = color
         view.tag = self.tag
         UIApplication.shared.keyWindow?.subviews.last?.addSubview(view)        
     }
     
-    class func setStub(sceneName: String, storyboardName: String = "Main", autocomplete: Bool = true) {
+    public class func setStub(sceneName: String, storyboardName: String = "Main", autocomplete: Bool = true) {
         let vc = UIStoryboard(name: storyboardName, bundle: nil).instantiateViewController(withIdentifier: sceneName)        
         vc.view.tag = self.tag
         self.shared.viewController = vc
@@ -35,7 +35,7 @@ class SuspendedViewStub {
         UIApplication.shared.keyWindow?.firstRoot?.present(self.shared.viewController!, animated: true, completion: nil)
     }
     
-    class func removeStub() {
+    public class func removeStub() {
         guard let view = UIApplication.shared.keyWindow?.subviews.last?.viewWithTag(self.tag) else { return }
         
         if self.shared.viewController == nil {

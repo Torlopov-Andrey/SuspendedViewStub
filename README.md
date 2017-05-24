@@ -22,7 +22,7 @@ pod "SuspendedViewStub"
 
 ## Author
 
-torlopov.andrey@gmail.com, torlopov.andrey@gmail.com
+torlopov.andrey@gmail.com
 
 ## License
 

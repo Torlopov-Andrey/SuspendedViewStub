@@ -5,7 +5,6 @@ target 'SuspendedViewStub_Example' do
 
   target 'SuspendedViewStub_Tests' do
     inherit! :search_paths
-
     
   end
 end
