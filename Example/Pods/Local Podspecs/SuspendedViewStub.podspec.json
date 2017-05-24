@@ -1,0 +1,22 @@
+{
+  "name": "SuspendedViewStub",
+  "version": "0.1.0",
+  "summary": "A short description of SuspendedViewStub.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/torlopov.andrey@gmail.com/SuspendedViewStub",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "torlopov.andrey@gmail.com": "torlopov.andrey@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/torlopov.andrey@gmail.com/SuspendedViewStub.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SuspendedViewStub/Classes/**/*"
+}

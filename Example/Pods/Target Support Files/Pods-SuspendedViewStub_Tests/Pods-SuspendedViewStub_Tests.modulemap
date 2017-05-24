@@ -1,0 +1,6 @@
+framework module Pods_SuspendedViewStub_Tests {
+  umbrella header "Pods-SuspendedViewStub_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

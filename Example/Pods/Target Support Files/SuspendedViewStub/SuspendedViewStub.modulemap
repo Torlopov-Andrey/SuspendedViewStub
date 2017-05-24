@@ -1,0 +1,6 @@
+framework module SuspendedViewStub {
+  umbrella header "SuspendedViewStub-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SuspendedViewStub (0.1.0)
+
+DEPENDENCIES:
+  - SuspendedViewStub (from `../`)
+
+EXTERNAL SOURCES:
+  SuspendedViewStub:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuspendedViewStub: 7cd51ab0ffd05276ea4fde7e5ed1826dd7932289
+
+PODFILE CHECKSUM: 0700aa619c010548dcda63a0dafb8f5f80e08d22
+
+COCOAPODS: 1.1.1
