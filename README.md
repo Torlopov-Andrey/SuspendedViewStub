@@ -27,21 +27,24 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## How it use
 
-1. In your project add the following line to your `Podfile`:
+* In your project add the following line to your `Podfile`:
+
 ```ruby
 pod "SuspendedViewStub"
 ```
 
-2. In your project you have 2 ways:
+In your project you have 2 ways:
 
-  2.1. Use colored view. Than you write in `AppDelegate.swift`:
+* Use colored view. Than you write in `AppDelegate.swift`:
 
 ``` Swift
 func applicationDidEnterBackground(_ application: UIApplication) {
 SuspendedViewStub.setStub(color: .green)
 }
 ```
-  2.2. Use custom controller. Than you write in `AppDelegate.swift`:
+
+* Use custom controller. Than you write in `AppDelegate.swift`:
+
 ``` Swift
 func applicationDidEnterBackground(_ application: UIApplication) {
 SuspendedViewStub.setStub(sceneName: CONTROLLER_IDENTITY, autocomplete: false)
@@ -51,7 +54,7 @@ SuspendedViewStub.setStub(sceneName: CONTROLLER_IDENTITY, storyboardName: STORYB
 }
 ```
 
-3. Important to write in `AppDelegate.swift` next code: 
+* Important to write in `AppDelegate.swift` next code: 
 
 ``` Swift
 func applicationWillEnterForeground(_ application: UIApplication) {
@@ -60,7 +63,7 @@ SuspendedViewStub.removeStub()
 }
 ```
 
-4. That's all
+That's all
 
 ## Author
 
