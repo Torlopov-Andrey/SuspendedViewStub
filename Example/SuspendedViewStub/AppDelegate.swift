@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Set colored view, custom view by id, and don't forget about autocomplete.
         // SuspendedViewStub.setStub(color: .green)
-        SuspendedViewStub.setStub(sceneName: "AuthStubScene", autocomplete: false)
+        SuspendedViewStub.setStub(sceneName: "AuthStubScene", storyboardName: "Main", autocomplete: false)
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
