@@ -34,14 +34,14 @@ pod "SuspendedViewStub"
 
 2. In your project you have 2 ways:
 
-2.1. Use colored view. Than you write in `AppDelegate.swift`:
+  2.1. Use colored view. Than you write in `AppDelegate.swift`:
 
 ``` Swift
 func applicationDidEnterBackground(_ application: UIApplication) {
 SuspendedViewStub.setStub(color: .green)
 }
 ```
-2.2. Use custom controller. Than you write in `AppDelegate.swift`:
+  2.2. Use custom controller. Than you write in `AppDelegate.swift`:
 ``` Swift
 func applicationDidEnterBackground(_ application: UIApplication) {
 SuspendedViewStub.setStub(sceneName: CONTROLLER_IDENTITY, autocomplete: false)
