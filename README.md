@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SuspendedViewStub.svg?style=flat)](http://cocoapods.org/pods/SuspendedViewStub)
 [![Platform](https://img.shields.io/cocoapods/p/SuspendedViewStub.svg?style=flat)](http://cocoapods.org/pods/SuspendedViewStub)
 
+## About
+
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

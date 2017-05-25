@@ -42,6 +42,7 @@
 		6F499F9DFAFE26D915E3BE35 /* Pods-SuspendedViewStub_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuspendedViewStub_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuspendedViewStub_Tests/Pods-SuspendedViewStub_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		884A6445286ADEA4CF0ED418 /* SuspendedViewStub.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SuspendedViewStub.podspec; path = ../SuspendedViewStub.podspec; sourceTree = "<group>"; };
 		A46906371ED61EBA00263552 /* AuthStubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthStubViewController.swift; sourceTree = "<group>"; };
+		A46906391ED6A5C700263552 /* SuspendedViewStub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SuspendedViewStub.framework; path = "../../../../../../../Users/andrey.torlopov/Library/Developer/Xcode/DerivedData/SuspendedViewStub-fciitsjzbvnmtzgxpalbhoaimgzc/Build/Products/Debug-iphonesimulator/SuspendedViewStub/SuspendedViewStub.framework"; sourceTree = "<group>"; };
 		ADE1DFFA253CED34E504C918 /* Pods-SuspendedViewStub_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuspendedViewStub_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuspendedViewStub_Example/Pods-SuspendedViewStub_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C190B0D104E4A17C6F8F33CC /* Pods_SuspendedViewStub_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuspendedViewStub_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576E6B3B374854C7B7E245E /* Pods-SuspendedViewStub_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuspendedViewStub_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuspendedViewStub_Tests/Pods-SuspendedViewStub_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 		43D1367F9407C26787800CCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A46906391ED6A5C700263552 /* SuspendedViewStub.framework */,
 				E26FE901597C4C1A12C29581 /* Pods_SuspendedViewStub_Example.framework */,
 				C190B0D104E4A17C6F8F33CC /* Pods_SuspendedViewStub_Tests.framework */,
 			);
@@ -276,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		0CCD6E062D3905CD612D0A91 /* [CP] Copy Pods Resources */ = {
@@ -306,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AF9C7CF0416A69015A1319AF /* [CP] Embed Pods Frameworks */ = {

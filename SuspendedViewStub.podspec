@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A simple view stub for application suspend mode.
+A simple view stub for ios application suspend mode.
                        DESC
 
   s.homepage         = 'https://github.com/torlopov-andrey/SuspendedViewStub'

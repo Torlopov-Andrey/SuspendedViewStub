@@ -14,22 +14,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // Optional setup. By defatul tag is 999.
-//        SuspendedViewStub.setup(tag: 888)
+        SuspendedViewStub.setup(tag: 888)
         
         return true
     }
-
     
     func applicationDidEnterBackground(_ application: UIApplication) {
-        
+        // Set colored view, custom view by id, and don't forget about autocomplete.
+        // SuspendedViewStub.setStub(color: .green)
+        SuspendedViewStub.setStub(sceneName: "AuthStubScene", autocomplete: false)
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        SuspendedViewStub.removeStub()
     }
 }
 
