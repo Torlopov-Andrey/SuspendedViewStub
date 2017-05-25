@@ -7,6 +7,9 @@
 
 ## About
 
+**It's my first pod, and if you find bugs, or some question - write me on email, or make issue in this repo.**
+
+
 It is just simple stub for your application, when you press home button. The main window is covered by a view of a specific color or your custom controller. Additionally, you can set autoclosing when your app resets foreground mode. In demo, I use custom controller with password field.
 
 ![About](https://github.com/Torlopov-Andrey/SuspendedViewStub/blob/master/Source/stub_demo.gif)
@@ -68,6 +71,7 @@ That's all
 ## Author
 
 torlopov.andrey@gmail.com
+
 skype: torlopov.andrey
 
 ## License
