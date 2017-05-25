@@ -7,7 +7,7 @@
 
 ## About
 
-It is just simple stub for your application, when you press home button. The main window is covered by a view of a specific color or your custom controller. Additionally, you can set autoclosing when your app resets foreground mode. 
+It is just simple stub for your application, when you press home button. The main window is covered by a view of a specific color or your custom controller. Additionally, you can set autoclosing when your app resets foreground mode. In demo, I use custom controller with password field.
 
 ![About](https://github.com/Torlopov-Andrey/SuspendedViewStub/blob/master/Source/stub_demo.gif)
 
@@ -27,12 +27,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## How it use
 
-1. In your project, write in `Podfile` code from `Installation`:
+1. In your project add the following line to your `Podfile`:
 ```ruby
 pod "SuspendedViewStub"
 ```
 
 2. In your project you have 2 ways:
+
 2.1. Use colored view. Than you write in `AppDelegate.swift`:
 
 ``` Swift
